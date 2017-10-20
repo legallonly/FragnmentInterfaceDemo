@@ -6,6 +6,7 @@ static静态变量：使用方便，但是，每个static变量都会占用一�
 广播Broadcast Receiver：Android的广播是有限制的，除了系统的广播外，其他的广播尽量少用。另外，广播会有延迟；
 接口：接口是我们常用的Fragment之间的通讯方式，通过一个主Activity作为通讯桥梁（谷歌官方声明：两个Fragment之间永远不要直接通讯），实现两个Fragment之间的通讯。
 接口的方式是我们推荐的，但是，传统的接口方式会造成一些问题，如果主Activity实现了多个Fragment的通讯回调接口，它的代码结构将是这样的：
+
 第一步：定义接口
 [java] view plain copy
 public interface Fragment1CallBack {  
