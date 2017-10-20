@@ -1,5 +1,6 @@
 # FragnmentInterfaceDemo
 Fragment之间通讯的万能接口框架
+
 实现两个Fragment之间的通讯方法有很多种，如：
 EventBus：使用方便，但其使用的是反射原理，会有稍微的延迟，并且他人维护不方便；
 static静态变量：使用方便，但是，每个static变量都会占用一块内存区，Android系统分配给每个App的内存是有限的（63M），过多很容易造成App内存溢出；
